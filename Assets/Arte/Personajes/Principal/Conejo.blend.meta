@@ -3,7 +3,47 @@ guid: 3b0de7209c25f6e40b140f2d8f8c9468
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 455e1c5d16af0fa4a9fab9537d69abe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 455e1c5d16af0fa4a9fab9537d69abe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cejas
+    second: {fileID: 2100000, guid: 29961283f4aba6f4c866ccc15183e95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piel
+    second: {fileID: 2100000, guid: 59dbff68bcdfacd45bf05c78b004bc8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piel.001
+    second: {fileID: 2100000, guid: 59dbff68bcdfacd45bf05c78b004bc8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: piel.002
+    second: {fileID: 2100000, guid: 59dbff68bcdfacd45bf05c78b004bc8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pupila
+    second: {fileID: 2100000, guid: 29961283f4aba6f4c866ccc15183e95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rejas adentro
+    second: {fileID: 2100000, guid: d29a06247119dee4c8c6cbf87dfd0563, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
