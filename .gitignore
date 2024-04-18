@@ -3,3 +3,7 @@ Logs
 UserSettings
 .vsconfig
 *.sln
+.vscode
+.vs
+*.csproj
+obj
