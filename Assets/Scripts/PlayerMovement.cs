@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    private Vector3 velocity;
     public float horizontalInput;
     public float verticalInput;
     public float speed = 2.0f;
@@ -27,6 +28,14 @@ public class PlayerMovement : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontalInput, 0f, verticalInput).normalized;
 
+        // apply gravity
+        if (controller.isGrounded && velocity.y < 0)
+        {
+            velocity.y = 0f;
+        }
+        velocity.y += gravityValue * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+
         // move the object
         if (direction.magnitude >= 0.1f)
         {
@@ -39,4 +48,5 @@ public class PlayerMovement : MonoBehaviour
             controller.Move(direction * speed * Time.deltaTime);
         }
     }
+
 }
