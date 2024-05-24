@@ -2,17 +2,20 @@ using UnityEngine;
 
 public class boton : MonoBehaviour
 {
+    public int identificador;
+    public PuzzleCompletado puzzle;
+    private AudioSource audioSource;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void ReducirAltura()
@@ -45,7 +48,9 @@ public class boton : MonoBehaviour
         if (other.CompareTag("Player") && Boton_presionado == false && Boton_disponible == true)
         {
             ReducirAltura();
+            audioSource.Play();
             Boton_presionado = true;
+            puzzle.VerificarOrden(identificador);
         }
     }
 
