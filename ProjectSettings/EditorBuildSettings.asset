@@ -6,13 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Nivel1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 9bcda6afd4b52a04a81b1dd3ddffaaa6
   - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/nivel2.unity
-    guid: 99949bed7a865a14bac533aa2b3cb313
+    guid: 738b3f26f5b4d564b8d199666373fb35
+  - enabled: 1
+    path: Assets/Scenes/creditos.unity
+    guid: 4ebe769e5adcabe4ab0cc4c10fbe5029
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
